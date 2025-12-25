@@ -1,0 +1,18 @@
+# venv
+.venv/
+venv/
+
+# local outputs
+out_*.png
+*.log
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# service secrets & local db
+service/.env
+service/service.db
